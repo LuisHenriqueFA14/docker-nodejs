@@ -1,0 +1,27 @@
+{
+  "name": "docker-nodejs",
+  "version": "1.0.0",
+  "description": "NodeJS environment in docker",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LuisHenriqueFA14/docker-nodejs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LuisHenriqueFA14/docker-nodejs/issues"
+  },
+  "homepage": "https://github.com/LuisHenriqueFA14/docker-nodejs#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
